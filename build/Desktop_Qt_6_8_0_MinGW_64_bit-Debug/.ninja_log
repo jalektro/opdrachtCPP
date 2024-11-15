@@ -1,9 +1,23 @@
 # ninja log v6
-23	170	7532767794901113	WeaponSystemAPI_autogen/timestamp	8c8c50867b9259f4
-23	170	7532767794901113	WeaponSystemAPI_autogen/mocs_compilation.cpp	8c8c50867b9259f4
-23	170	7532767794901113	C:/Users/12300752/OneDrive - PXL/Documenten/01. PXL/17. C++/WeaponSystemAPI/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/WeaponSystemAPI_autogen/timestamp	8c8c50867b9259f4
-171	2111	7532767796381445	CMakeFiles/WeaponSystemAPI.dir/websocketserver.cpp.obj	18848faa4551261f
-2111	2253	7532767815780291	WeaponSystemAPI.exe	8ab446332dc0e6ea
-23	170	7532767794901113	C:/Users/12300752/OneDrive - PXL/Documenten/01. PXL/17. C++/WeaponSystemAPI/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/WeaponSystemAPI_autogen/mocs_compilation.cpp	8c8c50867b9259f4
-630	3113	7532763972748911	CMakeFiles/WeaponSystemAPI.dir/main.cpp.obj	191c568b94185ac6
-626	3155	7532763972713870	CMakeFiles/WeaponSystemAPI.dir/WeaponSystemAPI_autogen/mocs_compilation.cpp.obj	6aabffa89d7af76a
+30	176	7533801939936626	WeaponSystemAPI_autogen/timestamp	8c8c50867b9259f4
+30	176	7533801939936626	WeaponSystemAPI_autogen/mocs_compilation.cpp	8c8c50867b9259f4
+30	176	7533801939936626	C:/Users/12300752/OneDrive - PXL/Documenten/01. PXL/17. C++/WeaponSystemAPI/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/WeaponSystemAPI_autogen/timestamp	8c8c50867b9259f4
+1362	5325	7533784374580427	CMakeFiles/WeaponSystemAPI.dir/websocketserver.cpp.obj	1ce29fcc1a55f002
+2217	2456	7533801961801116	WeaponSystemAPI.exe	769b4d11eedba57d
+30	176	7533801939936626	C:/Users/12300752/OneDrive - PXL/Documenten/01. PXL/17. C++/WeaponSystemAPI/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/WeaponSystemAPI_autogen/mocs_compilation.cpp	8c8c50867b9259f4
+931	4901	7533787267713318	CMakeFiles/WeaponSystemAPI.dir/main.cpp.obj	a26340396aaf3c22
+1348	5802	7533784374453118	CMakeFiles/WeaponSystemAPI.dir/WeaponSystemAPI_autogen/mocs_compilation.cpp.obj	f8ec4c84692bd3e9
+30	69	7533784359566630	CMakeFiles/clean.additional	baedbe210acaa455
+69	86	7533784359958210	clean	577b940aee94fbd7
+186	243	7533801779944631	WeaponSystemAPI_autogen/EWIEGA46WW/qrc_resources.cpp	dc702cf2e4c9c986
+186	243	7533801779944631	C:/Users/12300752/OneDrive - PXL/Documenten/01. PXL/17. C++/WeaponSystemAPI/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/WeaponSystemAPI_autogen/EWIEGA46WW/qrc_resources.cpp	dc702cf2e4c9c986
+247	365	7533801780054104	CMakeFiles/WeaponSystemAPI.dir/WeaponSystemAPI_autogen/EWIEGA46WW/qrc_resources.cpp.obj	b13a90b9b13c71db
+177	2217	7533801941407860	CMakeFiles/WeaponSystemAPI.dir/mainwindow.cpp.obj	42b00614049d22cd
+50	286	7533802199045407	WeaponSystemAPI_autogen/timestamp	8c8c50867b9259f4
+50	286	7533802199045407	WeaponSystemAPI_autogen/mocs_compilation.cpp	8c8c50867b9259f4
+50	286	7533802199045407	C:/Users/12300752/OneDrive - PXL/Documenten/01. PXL/17. C++/WeaponSystemAPI/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/WeaponSystemAPI_autogen/timestamp	8c8c50867b9259f4
+50	286	7533802199045407	C:/Users/12300752/OneDrive - PXL/Documenten/01. PXL/17. C++/WeaponSystemAPI/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/WeaponSystemAPI_autogen/mocs_compilation.cpp	8c8c50867b9259f4
+287	355	7533802201976407	WeaponSystemAPI_autogen/EWIEGA46WW/qrc_resources.cpp	dc702cf2e4c9c986
+287	355	7533802201976407	C:/Users/12300752/OneDrive - PXL/Documenten/01. PXL/17. C++/WeaponSystemAPI/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/WeaponSystemAPI_autogen/EWIEGA46WW/qrc_resources.cpp	dc702cf2e4c9c986
+355	508	7533802202087299	CMakeFiles/WeaponSystemAPI.dir/WeaponSystemAPI_autogen/EWIEGA46WW/qrc_resources.cpp.obj	b13a90b9b13c71db
+508	798	7533802203614035	WeaponSystemAPI.exe	769b4d11eedba57d

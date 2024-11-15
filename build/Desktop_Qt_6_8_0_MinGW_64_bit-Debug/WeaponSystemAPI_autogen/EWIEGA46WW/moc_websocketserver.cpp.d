@@ -1,6 +1,9 @@
 C:/Users/12300752/OneDrive\ -\ PXL/Documenten/01.\ PXL/17.\ C++/WeaponSystemAPI/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/WeaponSystemAPI_autogen/EWIEGA46WW/moc_websocketserver.cpp: C:/Users/12300752/OneDrive\ -\ PXL/Documenten/01.\ PXL/17.\ C++/WeaponSystemAPI/websocketserver.h \
   C:/Users/12300752/OneDrive\ -\ PXL/Documenten/01.\ PXL/17.\ C++/WeaponSystemAPI/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/WeaponSystemAPI_autogen/moc_predefs.h \
+  C:/Qt/6.8.0/mingw_64/include/QtCore/QDebug \
   C:/Qt/6.8.0/mingw_64/include/QtCore/QFlags \
+  C:/Qt/6.8.0/mingw_64/include/QtCore/QJsonDocument \
+  C:/Qt/6.8.0/mingw_64/include/QtCore/QJsonObject \
   C:/Qt/6.8.0/mingw_64/include/QtCore/QObject \
   C:/Qt/6.8.0/mingw_64/include/QtCore/QSharedDataPointer \
   C:/Qt/6.8.0/mingw_64/include/QtCore/QString \
@@ -25,6 +28,8 @@ C:/Users/12300752/OneDrive\ -\ PXL/Documenten/01.\ PXL/17.\ C++/WeaponSystemAPI/
   C:/Qt/6.8.0/mingw_64/include/QtCore/qbytearraylist.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qbytearrayview.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qcalendar.h \
+  C:/Qt/6.8.0/mingw_64/include/QtCore/qcborcommon.h \
+  C:/Qt/6.8.0/mingw_64/include/QtCore/qcborvalue.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qchar.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qcompare.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qcompare_impl.h \
@@ -41,6 +46,7 @@ C:/Users/12300752/OneDrive\ -\ PXL/Documenten/01.\ PXL/17.\ C++/WeaponSystemAPI/
   C:/Qt/6.8.0/mingw_64/include/QtCore/qdatastream.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qdatetime.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qdebug.h \
+  C:/Qt/6.8.0/mingw_64/include/QtCore/qendian.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qexceptionhandling.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qflags.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qfloat16.h \
@@ -56,6 +62,9 @@ C:/Users/12300752/OneDrive\ -\ PXL/Documenten/01.\ PXL/17.\ C++/WeaponSystemAPI/
   C:/Qt/6.8.0/mingw_64/include/QtCore/qiodevicebase.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qiterable.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qiterator.h \
+  C:/Qt/6.8.0/mingw_64/include/QtCore/qjsondocument.h \
+  C:/Qt/6.8.0/mingw_64/include/QtCore/qjsonobject.h \
+  C:/Qt/6.8.0/mingw_64/include/QtCore/qjsonvalue.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qlatin1stringview.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qlist.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qlocale.h \
@@ -77,6 +86,7 @@ C:/Users/12300752/OneDrive\ -\ PXL/Documenten/01.\ PXL/17.\ C++/WeaponSystemAPI/
   C:/Qt/6.8.0/mingw_64/include/QtCore/qpair.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qprocessordetection.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qrefcount.h \
+  C:/Qt/6.8.0/mingw_64/include/QtCore/qregularexpression.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qscopedpointer.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qscopeguard.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qset.h \
@@ -119,6 +129,7 @@ C:/Users/12300752/OneDrive\ -\ PXL/Documenten/01.\ PXL/17.\ C++/WeaponSystemAPI/
   C:/Qt/6.8.0/mingw_64/include/QtCore/qtypes.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qurl.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qutf8stringview.h \
+  C:/Qt/6.8.0/mingw_64/include/QtCore/quuid.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qvariant.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qvarlengtharray.h \
   C:/Qt/6.8.0/mingw_64/include/QtCore/qversiontagging.h \

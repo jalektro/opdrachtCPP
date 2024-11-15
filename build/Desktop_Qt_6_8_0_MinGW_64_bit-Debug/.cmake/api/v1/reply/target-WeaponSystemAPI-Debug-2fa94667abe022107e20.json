@@ -25,15 +25,17 @@
 		"files" : 
 		[
 			"CMakeLists.txt",
-			"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake",
-			"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
-			"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6/Qt6Config.cmake",
 			"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Network/Qt6NetworkTargets.cmake",
 			"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Network/Qt6NetworkConfig.cmake",
 			"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
 			"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
 			"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6WebSockets/Qt6WebSocketsDependencies.cmake",
-			"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6WebSockets/Qt6WebSocketsConfig.cmake"
+			"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6WebSockets/Qt6WebSocketsConfig.cmake",
+			"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6/Qt6Config.cmake",
+			"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake",
+			"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
+			"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake",
+			"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake"
 		],
 		"nodes" : 
 		[
@@ -49,50 +51,20 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 27,
+				"line" : 28,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 22,
+				"line" : 23,
 				"parent" : 0
 			},
 			{
-				"command" : 5,
+				"command" : 2,
 				"file" : 0,
-				"line" : 13,
+				"line" : 24,
 				"parent" : 0
-			},
-			{
-				"file" : 3,
-				"parent" : 4
-			},
-			{
-				"command" : 5,
-				"file" : 3,
-				"line" : 164,
-				"parent" : 5
-			},
-			{
-				"file" : 2,
-				"parent" : 6
-			},
-			{
-				"command" : 4,
-				"file" : 2,
-				"line" : 53,
-				"parent" : 7
-			},
-			{
-				"file" : 1,
-				"parent" : 8
-			},
-			{
-				"command" : 3,
-				"file" : 1,
-				"line" : 61,
-				"parent" : 9
 			},
 			{
 				"command" : 5,
@@ -101,66 +73,128 @@
 				"parent" : 0
 			},
 			{
-				"file" : 3,
+				"file" : 7,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 7,
+				"line" : 164,
+				"parent" : 6
+			},
+			{
+				"file" : 6,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 6,
+				"line" : 40,
+				"parent" : 8
+			},
+			{
+				"file" : 5,
+				"parent" : 9
+			},
+			{
+				"command" : 7,
+				"file" : 5,
+				"line" : 39,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 4,
+				"line" : 111,
 				"parent" : 11
 			},
 			{
 				"command" : 5,
 				"file" : 3,
-				"line" : 164,
+				"line" : 76,
 				"parent" : 12
 			},
 			{
-				"file" : 9,
+				"file" : 2,
 				"parent" : 13
 			},
 			{
 				"command" : 4,
-				"file" : 9,
-				"line" : 40,
+				"file" : 2,
+				"line" : 52,
 				"parent" : 14
 			},
 			{
-				"file" : 8,
+				"file" : 1,
 				"parent" : 15
 			},
 			{
-				"command" : 7,
-				"file" : 8,
-				"line" : 39,
+				"command" : 3,
+				"file" : 1,
+				"line" : 61,
 				"parent" : 16
 			},
 			{
-				"command" : 6,
-				"file" : 7,
-				"line" : 111,
-				"parent" : 17
+				"command" : 5,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
 			},
 			{
-				"command" : 5,
-				"file" : 6,
-				"line" : 76,
+				"file" : 7,
 				"parent" : 18
 			},
 			{
-				"file" : 5,
+				"command" : 5,
+				"file" : 7,
+				"line" : 164,
 				"parent" : 19
 			},
 			{
-				"command" : 4,
-				"file" : 5,
-				"line" : 52,
+				"file" : 9,
 				"parent" : 20
 			},
 			{
-				"file" : 4,
+				"command" : 4,
+				"file" : 9,
+				"line" : 53,
 				"parent" : 21
 			},
 			{
-				"command" : 3,
-				"file" : 4,
-				"line" : 61,
+				"file" : 8,
 				"parent" : 22
+			},
+			{
+				"command" : 3,
+				"file" : 8,
+				"line" : 61,
+				"parent" : 23
+			},
+			{
+				"command" : 5,
+				"file" : 7,
+				"line" : 164,
+				"parent" : 6
+			},
+			{
+				"file" : 11,
+				"parent" : 25
+			},
+			{
+				"command" : 4,
+				"file" : 11,
+				"line" : 52,
+				"parent" : 26
+			},
+			{
+				"file" : 10,
+				"parent" : 27
+			},
+			{
+				"command" : 3,
+				"file" : 10,
+				"line" : 61,
+				"parent" : 28
 			}
 		]
 	},
@@ -184,12 +218,20 @@
 					"define" : "QT_CORE_LIB"
 				},
 				{
+					"backtrace" : 4,
+					"define" : "QT_GUI_LIB"
+				},
+				{
 					"backtrace" : 3,
 					"define" : "QT_NETWORK_LIB"
 				},
 				{
 					"backtrace" : 3,
 					"define" : "QT_WEBSOCKETS_LIB"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "QT_WIDGETS_LIB"
 				},
 				{
 					"backtrace" : 3,
@@ -246,6 +288,16 @@
 					"backtrace" : 3,
 					"isSystem" : true,
 					"path" : "C:/Qt/6.8.0/mingw_64/include/QtNetwork"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.8.0/mingw_64/include/QtGui"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "C:/Qt/6.8.0/mingw_64/include/QtWidgets"
 				}
 			],
 			"language" : "CXX",
@@ -262,18 +314,20 @@
 			[
 				0,
 				1,
-				3
+				3,
+				5,
+				8
 			]
 		}
 	],
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 0,
-			"id" : "WeaponSystemAPI_autogen::@6890427a1f51a3e7e1df"
+			"id" : "WeaponSystemAPI_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "WeaponSystemAPI_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"backtrace" : 0,
+			"id" : "WeaponSystemAPI_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "WeaponSystemAPI::@6890427a1f51a3e7e1df",
@@ -309,8 +363,23 @@
 				"role" : "libraries"
 			},
 			{
+				"backtrace" : 4,
+				"fragment" : "C:\\Qt\\6.8.0\\mingw_64\\lib\\libQt6Widgets.a",
+				"role" : "libraries"
+			},
+			{
 				"backtrace" : 3,
 				"fragment" : "C:\\Qt\\6.8.0\\mingw_64\\lib\\libQt6Network.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "-lws2_32",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "C:\\Qt\\6.8.0\\mingw_64\\lib\\libQt6Gui.a",
 				"role" : "libraries"
 			},
 			{
@@ -319,18 +388,33 @@
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 10,
+				"backtrace" : 24,
 				"fragment" : "-lmpr",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 10,
+				"backtrace" : 24,
 				"fragment" : "-luserenv",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 23,
-				"fragment" : "-lws2_32",
+				"backtrace" : 29,
+				"fragment" : "-ld3d11",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "-ldxgi",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "-ldxguid",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 29,
+				"fragment" : "-ld3d12",
 				"role" : "libraries"
 			},
 			{
@@ -355,29 +439,33 @@
 			[
 				0,
 				1,
-				3
+				3,
+				5,
+				8
 			]
 		},
 		{
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				2
+				2,
+				4
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				4,
-				5
+				6,
+				7
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				6
+				9,
+				10
 			]
 		}
 	],
@@ -409,7 +497,18 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "localtest_server.md",
+			"path" : "mainwindow.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "mainwindow.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "resources.qrc",
 			"sourceGroupIndex" : 2
 		},
 		{
@@ -420,8 +519,21 @@
 		},
 		{
 			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/WeaponSystemAPI_autogen/EWIEGA46WW/qrc_resources.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/WeaponSystemAPI_autogen/timestamp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/WeaponSystemAPI_autogen/EWIEGA46WW/qrc_resources.cpp.rule",
 			"sourceGroupIndex" : 3
 		}
 	],

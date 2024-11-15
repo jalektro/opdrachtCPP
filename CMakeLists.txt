@@ -13,15 +13,15 @@ find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Core)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core)
 
 # Zoek Qt6 inclusief Core, WebSockets en Network componenten
-find_package(Qt6 REQUIRED COMPONENTS Core WebSockets Network)
+find_package(Qt6 REQUIRED COMPONENTS Core Gui Widgets WebSockets Network)
 
 # Stel de executable in en link de Qt6 componenten
 add_executable(WeaponSystemAPI main.cpp
     websocketserver.h websocketserver.cpp
-    localtest_server.md
-    uitleg.md)
+    mainwindow.h mainwindow.cpp
+    resources.qrc)
 target_link_libraries(WeaponSystemAPI Qt6::Core Qt6::WebSockets Qt6::Network)
-
+target_link_libraries(WeaponSystemAPI Qt6::Gui Qt6::Widgets)
 target_link_libraries(WeaponSystemAPI Qt${QT_VERSION_MAJOR}::Core)
 
 include(GNUInstallDirs)
