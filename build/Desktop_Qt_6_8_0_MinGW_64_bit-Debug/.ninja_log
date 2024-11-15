@@ -1,0 +1,9 @@
+# ninja log v6
+23	170	7532767794901113	WeaponSystemAPI_autogen/timestamp	8c8c50867b9259f4
+23	170	7532767794901113	WeaponSystemAPI_autogen/mocs_compilation.cpp	8c8c50867b9259f4
+23	170	7532767794901113	C:/Users/12300752/OneDrive - PXL/Documenten/01. PXL/17. C++/WeaponSystemAPI/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/WeaponSystemAPI_autogen/timestamp	8c8c50867b9259f4
+171	2111	7532767796381445	CMakeFiles/WeaponSystemAPI.dir/websocketserver.cpp.obj	18848faa4551261f
+2111	2253	7532767815780291	WeaponSystemAPI.exe	8ab446332dc0e6ea
+23	170	7532767794901113	C:/Users/12300752/OneDrive - PXL/Documenten/01. PXL/17. C++/WeaponSystemAPI/build/Desktop_Qt_6_8_0_MinGW_64_bit-Debug/WeaponSystemAPI_autogen/mocs_compilation.cpp	8c8c50867b9259f4
+630	3113	7532763972748911	CMakeFiles/WeaponSystemAPI.dir/main.cpp.obj	191c568b94185ac6
+626	3155	7532763972713870	CMakeFiles/WeaponSystemAPI.dir/WeaponSystemAPI_autogen/mocs_compilation.cpp.obj	6aabffa89d7af76a
