@@ -15,7 +15,7 @@ public:
     ~MainWindow();
 
    private slots:
-    void openWeaponDetails();  //slot to handle button clicks
+    void openWeaponDetails(QString weaponID);  //slot to handle button clicks
 
    private:
     QWidget *centralWidget; // Central widget of main window

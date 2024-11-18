@@ -19,7 +19,8 @@ find_package(Qt6 REQUIRED COMPONENTS Core Gui Widgets WebSockets Network)
 add_executable(WeaponSystemAPI main.cpp
     websocketserver.h websocketserver.cpp
     mainwindow.h mainwindow.cpp
-    resources.qrc)
+    resources.qrc
+    explosiveview.h explosiveview.cpp)
 target_link_libraries(WeaponSystemAPI Qt6::Core Qt6::WebSockets Qt6::Network)
 target_link_libraries(WeaponSystemAPI Qt6::Gui Qt6::Widgets)
 target_link_libraries(WeaponSystemAPI Qt${QT_VERSION_MAJOR}::Core)

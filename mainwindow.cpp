@@ -2,6 +2,7 @@
 #include <QIcon>
 #include <QLabel>
 #include <QDebug>
+#include "explosiveview.h"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent),
@@ -22,7 +23,7 @@ void MainWindow::setupWeapons(){
         QPushButton *weaponButton = new QPushButton(this);
 
         //set an icon for the weapon button
-        QString thumbnailPath = ":/images/images/" +weaponList[i] + ".jpg";
+        QString thumbnailPath = ":/images/" +weaponList[i] + ".jpg";
         weaponButton->setIcon(QIcon(thumbnailPath));
         weaponButton->setIconSize(QSize(100,100));
         weaponButton->setFixedSize(100,100); //set button size
@@ -31,7 +32,10 @@ void MainWindow::setupWeapons(){
         weaponButton->setProperty("weaponID",weaponList[i]);
 
         //connect the button click to open weapon details slot
-        connect(weaponButton, &QPushButton::clicked,this, &MainWindow::openWeaponDetails);
+        connect(weaponButton, &QPushButton::clicked, this, [this, weaponButton]() {
+            QString weaponID = weaponButton->property("weaponID").toString();
+            openWeaponDetails(weaponID); // Pass the weapon ID
+        });
 
         //  Add button to the grid layout
         gridLayout->addWidget(weaponButton, row, column);
@@ -42,19 +46,23 @@ void MainWindow::setupWeapons(){
             column =0;
             row++;
         }
-
     }
 }
 
 //slot: open weapon details when a button is clicked
-void MainWindow::openWeaponDetails(){
-    QPushButton *button = qobject_cast<QPushButton *>(sender());
-    if(!button) return;
+void MainWindow::openWeaponDetails(QString weaponID)
+{
+    // Create the explosive view for the selected weapon
+    ExplosiveView *explosiveView = new ExplosiveView(weaponID, this);
 
-    //  Retrieve the weapon ID stored in the button's property
-    QString weaponID = button->property("weaponID").toString();
-    qDebug() << "Opening details for weapon:" << weaponID;
+    // Replace the central widget with the explosive view
+    setCentralWidget(explosiveView);
 
-    // TODO: open a new windows or dialog showing the weapon's exploded view
-    //for now, just print the debug output
+    // Optionally: Add a "Back" button to return to the main grid
+    QPushButton *backButton = new QPushButton("Back", explosiveView);
+    explosiveView->getLayout()->addWidget(backButton);
+    connect(backButton, &QPushButton::clicked, this, [this]() {
+        // Restore the original grid layout
+        setCentralWidget(centralWidget);
+    });
 }
