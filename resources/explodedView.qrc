@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/explodedview">
+        <file>explodedview_scar_l.png</file>
+    </qresource>
+</RCC>
