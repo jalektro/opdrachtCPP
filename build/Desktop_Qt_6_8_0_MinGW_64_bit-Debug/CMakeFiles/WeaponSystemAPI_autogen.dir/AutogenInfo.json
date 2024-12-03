@@ -335,6 +335,24 @@
 		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6WebSockets/Qt6WebSocketsTargets-relwithdebinfo.cmake",
 		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6WebSockets/Qt6WebSocketsAdditionalTargetInfo.cmake",
 		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6WebSockets/Qt6WebSocketsVersionlessTargets.cmake",
+		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Pdf/Qt6PdfConfigVersion.cmake",
+		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Pdf/Qt6PdfConfigVersionImpl.cmake",
+		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Pdf/Qt6PdfConfig.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Pdf/Qt6PdfDependencies.cmake",
+		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Pdf/Qt6PdfTargets.cmake",
+		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Pdf/Qt6PdfTargets-relwithdebinfo.cmake",
+		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Pdf/Qt6PdfAdditionalTargetInfo.cmake",
+		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Pdf/Qt6PdfVersionlessTargets.cmake",
+		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6PdfWidgets/Qt6PdfWidgetsConfigVersion.cmake",
+		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6PdfWidgets/Qt6PdfWidgetsConfigVersionImpl.cmake",
+		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6PdfWidgets/Qt6PdfWidgetsConfig.cmake",
+		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake",
+		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6PdfWidgets/Qt6PdfWidgetsDependencies.cmake",
+		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6PdfWidgets/Qt6PdfWidgetsTargets.cmake",
+		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6PdfWidgets/Qt6PdfWidgetsTargets-relwithdebinfo.cmake",
+		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6PdfWidgets/Qt6PdfWidgetsAdditionalTargetInfo.cmake",
+		"C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6PdfWidgets/Qt6PdfWidgetsVersionlessTargets.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.29/Modules/GNUInstallDirs.cmake",
 		"C:/Users/12300752/OneDrive - PXL/Documenten/01. PXL/17. C++/WeaponSystemAPI/resources.qrc"
 	],
@@ -357,6 +375,12 @@
 			null
 		],
 		[
+			"C:/Users/12300752/OneDrive - PXL/Documenten/01. PXL/17. C++/WeaponSystemAPI/part.h",
+			"MU",
+			"EWIEGA46WW/moc_part.cpp",
+			null
+		],
+		[
 			"C:/Users/12300752/OneDrive - PXL/Documenten/01. PXL/17. C++/WeaponSystemAPI/websocketserver.h",
 			"MU",
 			"EWIEGA46WW/moc_websocketserver.cpp",
@@ -372,6 +396,8 @@
 		"QT_CORE_LIB",
 		"QT_GUI_LIB",
 		"QT_NETWORK_LIB",
+		"QT_PDFWIDGETS_LIB",
+		"QT_PDF_LIB",
 		"QT_WEBSOCKETS_LIB",
 		"QT_WIDGETS_LIB",
 		"UNICODE",
@@ -397,6 +423,8 @@
 		"C:/Qt/6.8.0/mingw_64/include/QtNetwork",
 		"C:/Qt/6.8.0/mingw_64/include/QtGui",
 		"C:/Qt/6.8.0/mingw_64/include/QtWidgets",
+		"C:/Qt/6.8.0/mingw_64/include/QtPdf",
+		"C:/Qt/6.8.0/mingw_64/include/QtPdfWidgets",
 		"C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++",
 		"C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32",
 		"C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward",
@@ -449,6 +477,11 @@
 		],
 		[
 			"C:/Users/12300752/OneDrive - PXL/Documenten/01. PXL/17. C++/WeaponSystemAPI/mainwindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/12300752/OneDrive - PXL/Documenten/01. PXL/17. C++/WeaponSystemAPI/part.cpp",
 			"MU",
 			null
 		],

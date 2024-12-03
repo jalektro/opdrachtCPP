@@ -313,6 +313,12 @@ Qt6Gui_DIR:PATH=C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Gui
 //The directory containing a CMake configuration file for Qt6Network.
 Qt6Network_DIR:PATH=C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Network
 
+//The directory containing a CMake configuration file for Qt6PdfWidgets.
+Qt6PdfWidgets_DIR:PATH=C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6PdfWidgets
+
+//The directory containing a CMake configuration file for Qt6Pdf.
+Qt6Pdf_DIR:PATH=C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Pdf
+
 //The directory containing a CMake configuration file for Qt6WebSockets.
 Qt6WebSockets_DIR:PATH=C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6WebSockets
 
@@ -967,6 +973,22 @@ QT_FEATURE_openvg:INTERNAL=OFF
 QT_FEATURE_pcre2:INTERNAL=ON
 //Qt feature: pdf (from target Qt6::Gui)
 QT_FEATURE_pdf:INTERNAL=ON
+//Qt feature: pdf_bitcode (from target Qt6::Pdf)
+QT_FEATURE_pdf_bitcode:INTERNAL=OFF
+//Qt feature: pdf_static_runtime (from target Qt6::Pdf)
+QT_FEATURE_pdf_static_runtime:INTERNAL=OFF
+//Qt feature: pdf_v8 (from target Qt6::Pdf)
+QT_FEATURE_pdf_v8:INTERNAL=OFF
+//Qt feature: pdf_xfa (from target Qt6::Pdf)
+QT_FEATURE_pdf_xfa:INTERNAL=OFF
+//Qt feature: pdf_xfa_bmp (from target Qt6::Pdf)
+QT_FEATURE_pdf_xfa_bmp:INTERNAL=OFF
+//Qt feature: pdf_xfa_gif (from target Qt6::Pdf)
+QT_FEATURE_pdf_xfa_gif:INTERNAL=OFF
+//Qt feature: pdf_xfa_png (from target Qt6::Pdf)
+QT_FEATURE_pdf_xfa_png:INTERNAL=OFF
+//Qt feature: pdf_xfa_tiff (from target Qt6::Pdf)
+QT_FEATURE_pdf_xfa_tiff:INTERNAL=OFF
 //Qt feature: permissions (from target Qt6::Core)
 QT_FEATURE_permissions:INTERNAL=ON
 //Qt feature: picture (from target Qt6::Gui)

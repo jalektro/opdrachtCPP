@@ -6,6 +6,7 @@
 #include <QLineEdit>
 #include <QPushButton>
 #include <QVBoxLayout>
+#include <QPdfView>
 
 class ExplosiveView : public QWidget
 {
@@ -21,6 +22,7 @@ public:
     QLineEdit *partNumberLineEdit;
     QPushButton *searchButton;
     QVBoxLayout *layout;
+    QPdfView *pdfViewer;
 
     void setupUI(const QString &weaponId);
 

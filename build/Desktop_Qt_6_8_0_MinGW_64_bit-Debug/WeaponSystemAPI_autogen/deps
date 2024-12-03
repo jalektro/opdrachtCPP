@@ -202,6 +202,9 @@ WeaponSystemAPI_autogen/timestamp: \
 	C:/Qt/6.8.0/mingw_64/include/QtNetwork/qtnetwork-config.h \
 	C:/Qt/6.8.0/mingw_64/include/QtNetwork/qtnetworkexports.h \
 	C:/Qt/6.8.0/mingw_64/include/QtNetwork/qtnetworkglobal.h \
+	C:/Qt/6.8.0/mingw_64/include/QtPdfWidgets/QPdfView \
+	C:/Qt/6.8.0/mingw_64/include/QtPdfWidgets/qpdfview.h \
+	C:/Qt/6.8.0/mingw_64/include/QtPdfWidgets/qtpdfwidgetsglobal.h \
 	C:/Qt/6.8.0/mingw_64/include/QtWebSockets/QWebSocket \
 	C:/Qt/6.8.0/mingw_64/include/QtWebSockets/QWebSocketServer \
 	C:/Qt/6.8.0/mingw_64/include/QtWebSockets/qtwebsocketsexports.h \
@@ -218,6 +221,7 @@ WeaponSystemAPI_autogen/timestamp: \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/QVBoxLayout \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/QWidget \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/qabstractbutton.h \
+	C:/Qt/6.8.0/mingw_64/include/QtWidgets/qabstractscrollarea.h \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/qapplication.h \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/qboxlayout.h \
 	C:/Qt/6.8.0/mingw_64/include/QtWidgets/qframe.h \
@@ -398,6 +402,22 @@ WeaponSystemAPI_autogen/timestamp: \
 	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginConfig.cmake \
 	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets-relwithdebinfo.cmake \
 	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Network/Qt6QTlsBackendOpenSSLPluginTargets.cmake \
+	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Pdf/Qt6PdfAdditionalTargetInfo.cmake \
+	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Pdf/Qt6PdfConfig.cmake \
+	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Pdf/Qt6PdfConfigVersion.cmake \
+	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Pdf/Qt6PdfConfigVersionImpl.cmake \
+	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Pdf/Qt6PdfDependencies.cmake \
+	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Pdf/Qt6PdfTargets-relwithdebinfo.cmake \
+	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Pdf/Qt6PdfTargets.cmake \
+	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6Pdf/Qt6PdfVersionlessTargets.cmake \
+	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6PdfWidgets/Qt6PdfWidgetsAdditionalTargetInfo.cmake \
+	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6PdfWidgets/Qt6PdfWidgetsConfig.cmake \
+	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6PdfWidgets/Qt6PdfWidgetsConfigVersion.cmake \
+	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6PdfWidgets/Qt6PdfWidgetsConfigVersionImpl.cmake \
+	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6PdfWidgets/Qt6PdfWidgetsDependencies.cmake \
+	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6PdfWidgets/Qt6PdfWidgetsTargets-relwithdebinfo.cmake \
+	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6PdfWidgets/Qt6PdfWidgetsTargets.cmake \
+	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6PdfWidgets/Qt6PdfWidgetsVersionlessTargets.cmake \
 	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6WebSockets/Qt6WebSocketsAdditionalTargetInfo.cmake \
 	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6WebSockets/Qt6WebSocketsConfig.cmake \
 	C:/Qt/6.8.0/mingw_64/lib/cmake/Qt6WebSockets/Qt6WebSocketsConfigVersion.cmake \
@@ -682,6 +702,8 @@ WeaponSystemAPI_autogen/timestamp: \
 	C:/Users/12300752/OneDrive\ -\ PXL/Documenten/01.\ PXL/17.\ C++/WeaponSystemAPI/main.cpp \
 	C:/Users/12300752/OneDrive\ -\ PXL/Documenten/01.\ PXL/17.\ C++/WeaponSystemAPI/mainwindow.cpp \
 	C:/Users/12300752/OneDrive\ -\ PXL/Documenten/01.\ PXL/17.\ C++/WeaponSystemAPI/mainwindow.h \
+	C:/Users/12300752/OneDrive\ -\ PXL/Documenten/01.\ PXL/17.\ C++/WeaponSystemAPI/part.cpp \
+	C:/Users/12300752/OneDrive\ -\ PXL/Documenten/01.\ PXL/17.\ C++/WeaponSystemAPI/part.h \
 	C:/Users/12300752/OneDrive\ -\ PXL/Documenten/01.\ PXL/17.\ C++/WeaponSystemAPI/resources.qrc \
 	C:/Users/12300752/OneDrive\ -\ PXL/Documenten/01.\ PXL/17.\ C++/WeaponSystemAPI/websocketserver.cpp \
 	C:/Users/12300752/OneDrive\ -\ PXL/Documenten/01.\ PXL/17.\ C++/WeaponSystemAPI/websocketserver.h \
