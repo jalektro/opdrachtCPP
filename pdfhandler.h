@@ -5,6 +5,10 @@
 #include <QString>
 #include <QPdfDocument>
 #include <QPdfView>
+#include <QPdfPageNavigator>
+#include <QPdfSearchModel>
+
+
 
 class pdfHandler : public QDialog{
     Q_OBJECT

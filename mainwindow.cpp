@@ -2,6 +2,7 @@
 #include <QLabel>
 #include "mainwindow.h"
 #include "scarl.h"
+#include <QPdfSearchModel>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent),
@@ -66,7 +67,7 @@ void MainWindow::openWeaponDetails(const QString &weaponName) {
 
             imageLabel->setPixmap(pixmap);
             imageLabel->setScaledContents(true);
-            imageLabel->setFixedSize(1000, 1000); // Adjust size as needed
+            imageLabel->setFixedSize(800, 800); // Adjust size as needed
 
             layout->addWidget(imageLabel);
             explodedViewDialog.setLayout(layout);
