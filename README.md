@@ -9,4 +9,4 @@ information to have an order in the logistic program ILIAS.
 The main goald for this program is to have an easy access to all the weapon on one specific place, this could be updated with internet but should also work locally. 
 The main goal is to spare time in the field with searching for all parts for different weapons. 
 
-edit: the program as now is not finisched for a demo. 
+edit: the program as now is not finished for a demo. 
