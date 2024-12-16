@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/pdf">
+        <file>scar_l.pdf</file>
+    </qresource>
+</RCC>

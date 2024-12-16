@@ -1,6 +1,8 @@
 #include <QMessageBox>
 #include <QLabel>
+#include <QLineEdit>
 #include "mainwindow.h"
+#include "pdfhandler.h"
 #include "scarl.h"
 #include <QPdfSearchModel>
 
@@ -68,9 +70,53 @@ void MainWindow::openWeaponDetails(const QString &weaponName) {
             imageLabel->setPixmap(pixmap);
             imageLabel->setScaledContents(true);
             imageLabel->setFixedSize(800, 800); // Adjust size as needed
-
             layout->addWidget(imageLabel);
+
+            // Add search box
+            QLineEdit *searchBox = new QLineEdit(&explodedViewDialog);
+            searchBox->setPlaceholderText("Enter number/name to search in the PDF...");
+            layout->addWidget(searchBox);
+
+            // Add search button
+            QPushButton *searchButton = new QPushButton("Search", &explodedViewDialog);
+            layout->addWidget(searchButton);
+
+            // Add back button
+            QPushButton *backButton = new QPushButton("Back to Main Page", &explodedViewDialog);
+            layout->addWidget(backButton);
+
             explodedViewDialog.setLayout(layout);
+
+            // Back button logic
+            connect(backButton, &QPushButton::clicked, [&]() {
+                explodedViewDialog.close();
+            });
+
+            // PDF handler
+            pdfHandler *pdfViewer = new pdfHandler(&explodedViewDialog);
+            QString pdfPath = weapon->getPdfPath(); // Ensure the weapon has an associated PDF path
+
+            if (!pdfViewer->loadPdf(pdfPath)) {
+                QMessageBox::warning(this, "Error", "Failed to load the PDF for this weapon.");
+                delete pdfViewer;
+                return;
+            }
+
+            connect(searchButton, &QPushButton::clicked, [&]() {
+                QString searchTerm = searchBox->text().trimmed();
+                if (searchTerm.isEmpty()) {
+                    QMessageBox::warning(&explodedViewDialog, "Input Error", "Please enter a number to search.");
+                    return;
+                }
+
+                if (!pdfViewer->searchAndOpenPage(searchTerm)) {
+                    QMessageBox::information(&explodedViewDialog, "Not Found", "Number '" + searchTerm + "' not found in the PDF.");
+                } else {
+                    pdfViewer->showPdf(); // Show the PDF with the search result
+                }
+            });
+
+
 
             // Show the dialog modally
             explodedViewDialog.exec();
