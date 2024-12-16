@@ -13,6 +13,7 @@ SOURCES += \
     main.cpp \
     mainwindow.cpp \
     pdfhandler.cpp \
+    scarh.cpp \
     scarl.cpp \
     weapon.cpp \
     weaponmanager.cpp
@@ -20,6 +21,7 @@ SOURCES += \
 HEADERS += \
     mainwindow.h \
     pdfhandler.h \
+    scarh.h \
     scarl.h \
     weapon.h \
     weaponmanager.h

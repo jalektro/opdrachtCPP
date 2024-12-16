@@ -1,10 +1,12 @@
 #include <QMessageBox>
 #include <QLabel>
 #include <QLineEdit>
+#include <QPdfSearchModel>
 #include "mainwindow.h"
 #include "pdfhandler.h"
 #include "scarl.h"
-#include <QPdfSearchModel>
+#include "scarh.h"
+
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent),
@@ -27,6 +29,7 @@ MainWindow::~MainWindow() {
 void MainWindow::setupWeapons() {
     // Add child classes to the list.
     weapons.append( new SCARL());
+     weapons.append( new SCARH());
     // Add more if needed
 }
 
@@ -115,9 +118,6 @@ void MainWindow::openWeaponDetails(const QString &weaponName) {
                     pdfViewer->showPdf(); // Show the PDF with the search result
                 }
             });
-
-
-
             // Show the dialog modally
             explodedViewDialog.exec();
 
